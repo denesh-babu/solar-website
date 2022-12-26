@@ -1,0 +1,371 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+  
+nav{
+    width: 100%;
+    height: 10vh;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    background:rgb(0, 174, 255);
+  }
+  
+  nav .logo{
+    width: 25%;
+    text-align: center;
+  }
+  
+  nav .logo h1{
+    font-family: Arial;
+    font-weight: bold;
+  }
+  
+  nav .logo h1 span{
+    color: #00ff0d;
+  }
+  
+  
+  nav .menu{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  nav .menu a{
+    width: 25%;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  
+  
+  nav .menu a:hover{
+  color:#2bff00;
+  }
+
+
+
+  .heading h1 {
+    text-align: center;
+    margin-top: 70px;
+    font-family:  sans-serif;
+  }
+
+  .heading p{
+    text-align: center;
+    color: rgb(121, 121, 121);
+  }
+
+  .heading hr{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 70px;
+    color: rgb(177, 174, 174);
+  }
+
+
+  .heading-p{
+    font-size: 25px;
+    margin: 0px 130px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+  }
+
+  .heading-img{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+
+
+  .profile h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 80px;
+  }
+
+  .profile h1 span{
+    color: #2bff00;
+  }
+  
+  .profile {
+   text-align: center;
+  }
+
+  .profile img{
+    border-radius: 150px;
+    margin-bottom: 30px;
+  }
+.profile h2{
+    letter-spacing: 4px;
+    margin-bottom: 10px;
+}
+
+.profile h5{
+    color:  rgb(177, 174, 174);
+}
+
+.profile h5 span{
+    color: #00ff0d;
+}
+
+.profile-p{
+    font-size: 25px;
+    color:  rgb(177, 174, 174);
+    margin: 80px 200px;
+}
+
+.profile-p span{
+    font-size: 25px;
+    color: black;
+}
+
+
+.profile-icon{
+    width: 100%;
+    height: 50vh;
+    background-image: url(https://wallpaperaccess.com/full/1495187.jpg);
+    background-size: cover;
+}
+
+
+.icon-heading{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 1.4;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.icon-heading h1{
+    color: white;
+}
+
+.icon-card img{
+ float: left;
+ padding-right: 20px;
+}
+
+.icon-card h2{
+    font-weight: 700;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    padding-top: 10px;
+    
+}
+
+.icon-card p{
+    font-size: 23px;
+    color: rgb(114, 114, 114);
+    
+}
+
+.icon-card{
+    padding: 20px;
+    width: 100%;
+    margin-left: 70px;
+}
+
+.card-flex{
+    display: flex;
+    justify-content: center;
+}
+
+.team-heading h1{
+text-align: center;
+margin: 70px;
+
+}
+
+.card-content{
+    width: 400px;
+}
+
+.card-content img{
+    float: left;
+    margin-right:30px;
+    padding-bottom:120px ;
+    margin-left:80px;
+}
+
+.card-content p{
+    line-height: 25px;
+    color: rgb(114, 114, 114);
+    font-size: 18px;
+}
+
+
+.content-card{
+    display: flex;
+    justify-content: center;
+}
+
+.team-heading hr{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 70px;
+    color: rgb(177, 174, 174);
+    margin-bottom: 70px;
+  }
+
+
+  .career{
+    width: 100%;
+    height: 70vh;
+    background-image: url(https://d32ijn7u0aqfv4.cloudfront.net/wp/wp-content/uploads/20180612143305/laptop-coffee-notebook-station.png);
+    background-size: cover;
+    text-align: center;
+    margin-top: 70px;
+  }
+
+  .career h1 {
+    
+    font-weight: bold;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    padding-top: 100px;
+  }
+
+  .career p{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    margin: 0px 220px;
+    padding-top: 60px;
+  }
+
+  .button{
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 50px;
+    background-color:#00ff0d;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    margin-top: 50px;
+  }
+
+
+
+
+
+
+  
+.footer{
+    width: 100%;
+    display: flex;
+    background: #dddddd;
+    padding: 30px;
+  
+  }
+  
+  .row ul li{
+   padding: 10px;
+   margin: 10px;
+   list-style: none;
+  }
+  
+    
+  .row h4{
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  
+
+.container{
+    max-width: 1170px;
+    
+  }
+  
+  ul{
+    list-style: none;
+  }
+  
+  .footer{
+    background-color: #24262b;
+    padding:70px0;
+    margin-top: 0px;
+  }
+  
+  
+  .footer-col{
+    width:25%;
+    padding: 060px;
+  }
+  
+  .footer-col h4{
+    font-size: 18px;
+    color:#ffffff;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+  }
+  
+  .row{
+    display:flex;
+    flex-wrap: wrap;
+  }
+  
+  .footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #40e91e;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+  }
+  
+  
+  .footer-col ul li a{
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  color:#bbbbbb;
+  display:block;
+  transition:all 0.3s ease;
+  }
+  
+  .footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+  }
+  
+  
+  .footer-col ul li a:hover{
+    color:#15ff00;
+    padding-left: 8px;
+  }
+  
+  .footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,255,255,0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+  }
+  
+  
+  .footer-col .social-links a:hover {
+    color: #09ff00;
+  }
